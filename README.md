@@ -3,30 +3,34 @@ Implementations of two saliency models described in "Visualizing and Understandi
 
 ## Requirements:
 GPU
+
 Torch (nn,cutorch,cunn,nngraph)
-[python matplotlib library](http://matplotlib.org/) (only for matrix plotting purposes)
+
+python [matplotlib library](http://matplotlib.org/) (only for matrix plotting purposes)
 
 ## Run the models:
-Visualization using the first-derivative saliency model:
+Run the first-derivative saliency model:
 
 sh saliency_derivative.sh
 
-Visualization using the variance saliency model:
+Run the variance saliency model:
 
 sh saliency_variance.sh
 
-After running, the saliency matrix will be stored in the file "matrix"
+The saliency matrix will be stored in the file "matrix". 
 
 ##Folders and Files
 input.txt: the input sentence.
 
-sentiment_bidi: training bi-directional lstms on the stanford sentiment treebank. Readers can either directly load a pretrained model (sentiment_bidi/model) or train it by yourself by running sentiment_bidi/main.lua
+sentiment_bidi: training bi-directional lstms on the Stanford Sentiment Treebank. You can either download a pretrained model (sentiment_bidi/model) or train it yourself by running sentiment_bidi/main.lua
 
 data/dict.txt: word dictionary. Current models only support tokens found in the dictionary. Will fix it soon.
 
 download [data](http://cs.stanford.edu/~bdlijiwei/visual_data.tar)
 
 For any pertinent questions, feel free to contact jiweil@stanford.edu
+
+![Alt Text](http://stanford.edu/~jiweil/visual.png)
 
 ## Acknowledgments
 
