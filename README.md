@@ -1,5 +1,5 @@
 # Visualizing and Understanding Neural Models in NLP
-Implementations of two saliency models described in "Visualizing and Understanding Neural Models in NLP" by Jiwei Li, Xinlei Chen, Eduard Hovy and Dan Jurafsky.
+Implementations of saliency models described in "Visualizing and Understanding Neural Models in NLP" by Jiwei Li, Xinlei Chen, Eduard Hovy and Dan Jurafsky.
 
 ## Requirements:
 GPU
@@ -13,11 +13,9 @@ Run the first-derivative saliency model:
 
 sh saliency_derivative.sh
 
-Run the variance saliency model:
-
-sh saliency_variance.sh
-
 The saliency matrix will be stored in the file "matrix". 
+
+![Alt Text](http://stanford.edu/~jiweil/visual.png)
 
 ##Folders and Files
 input.txt: the input sentence.
@@ -30,7 +28,6 @@ download [data](http://cs.stanford.edu/~bdlijiwei/visual_data.tar)
 
 For any pertinent questions, feel free to contact jiweil@stanford.edu
 
-![Alt Text](http://stanford.edu/~jiweil/visual.png)
 
 ## Acknowledgments
 
