@@ -6,7 +6,9 @@ GPU
 
 Torch (nn,cutorch,cunn,nngraph)
 
-python [matplotlib library]("http://matplotlib.org") (only for matrix plotting purposes)
+python [matplotlib library](http://matplotlib.org/users/installing.html) (only for matrix plotting purposes)
+
+download [data](http://cs.stanford.edu/~bdlijiwei/visual_data.tar)
 
 ## Run the models:
 Run the first-derivative saliency model:
@@ -33,7 +35,6 @@ sentiment_uni: training uni-directional standard recurrent models.
 
 data/dict.txt: word dictionary. Current models only support tokens found in the dictionary. Will fix it soon.
 
-download [data](http://cs.stanford.edu/~bdlijiwei/visual_data.tar)
 
 For any pertinent questions, feel free to contact jiweil@stanford.edu
 
