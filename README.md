@@ -15,12 +15,21 @@ sh saliency_derivative.sh
 
 The saliency matrix will be stored in the file "matrix". 
 
+Run the variance saliency model:
+
+sh saliency_variance.sh
+
+The saliency matrix will be stored in the file "matrix". 
+
+
 ![Alt Text](http://stanford.edu/~jiweil/visual.png)
 
 ##Folders and Files
 input.txt: the input sentence.
 
 sentiment_bidi: training bi-directional lstms on the Stanford Sentiment Treebank. You can either download a pretrained model (sentiment_bidi/model) or train it yourself by running sentiment_bidi/main.lua
+
+sentiment_uni: training uni-directional standard recurrent models. 
 
 data/dict.txt: word dictionary. Current models only support tokens found in the dictionary. Will fix it soon.
 
