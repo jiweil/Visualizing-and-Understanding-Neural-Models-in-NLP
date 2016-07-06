@@ -22,7 +22,7 @@ sh saliency_variance.sh
 The saliency matrix will be stored in the file "matrix". 
 
 
-![Alt Text](http://stanford.edu/~jiweil/visual.png)
+![Alt Text](http://stanford.edu/~jiweil/visual1.png)
 
 ##Folders and Files
 input.txt: the input sentence.
