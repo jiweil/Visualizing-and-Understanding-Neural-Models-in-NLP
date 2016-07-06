@@ -18,13 +18,11 @@ local fr=io.open("util/input_index.txt","r")
 io.input(fr)
 while true do
     local str=io.read();
-    print(str)
     if str==nil then
         End=1;
         break;
     end
     local list=stringx.split(stringx.strip(str)," ")
-    print(list)
     local matrix=torch.Tensor(#list,params.dimension);
     for i=1,#list do 
         matrix[{{i},{}}]:copy(paramx[1][1][{{tonumber(list[i])},{}}])
