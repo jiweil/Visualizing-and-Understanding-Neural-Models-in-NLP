@@ -6,7 +6,7 @@ GPU
 
 Torch (nn,cutorch,cunn,nngraph)
 
-python [matplotlib library]("http://matplotlib.org/users/installing.html") (only for matrix plotting purposes)
+python [matplotlib library]("http://matplotlib.org") (only for matrix plotting purposes)
 
 ## Run the models:
 Run the first-derivative saliency model:
